@@ -51,6 +51,7 @@ exports[`ButtonUniversal Component matches snapshot with all props configured 1`
         "borderColor": "#BADE5B",
       },
       false,
+      undefined,
       false,
     ]
   }
@@ -233,6 +234,7 @@ exports[`ButtonUniversal Component matches snapshot with default props 1`] = `
       },
       false,
       false,
+      undefined,
       false,
     ]
   }
@@ -334,6 +336,7 @@ exports[`ButtonUniversal Component matches snapshot with disabled state 1`] = `
       {
         "opacity": 0.6,
       },
+      undefined,
       false,
     ]
   }
@@ -489,6 +492,7 @@ exports[`ButtonUniversal Component matches snapshot with primary variant 1`] = `
       },
       false,
       false,
+      undefined,
       false,
     ]
   }
@@ -588,6 +592,7 @@ exports[`ButtonUniversal Component matches snapshot with secondary variant 1`] =
         "borderColor": "#BADE5B",
       },
       false,
+      undefined,
       false,
     ]
   }
@@ -687,6 +692,7 @@ exports[`ButtonUniversal Component matches snapshot with stretch enabled 1`] = `
       },
       false,
       false,
+      undefined,
       false,
     ]
   }

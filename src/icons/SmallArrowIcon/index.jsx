@@ -1,4 +1,3 @@
-import { colors } from 'pearpass-lib-ui-theme-provider/native'
 import Svg, { Path } from 'react-native-svg'
 
 import { getIconProps } from '../getIconProps'

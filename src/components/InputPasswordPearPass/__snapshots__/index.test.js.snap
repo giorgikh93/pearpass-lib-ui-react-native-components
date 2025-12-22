@@ -238,12 +238,13 @@ exports[`InputPasswordPearPass Component matches snapshot 1`] = `
             d="M10 19C14.9706 19 19 14.9706 19 10C19 5.02944 14.9706 1 10 1C5.02944 1 1 5.02944 1 10C1 14.9706 5.02944 19 10 19Z"
             fill={
               {
-                "payload": 4278190080,
+                "payload": 4292238430,
                 "type": 0,
               }
             }
             propList={
               [
+                "fill",
                 "stroke",
               ]
             }
@@ -273,7 +274,7 @@ exports[`InputPasswordPearPass Component matches snapshot 1`] = `
       <Text
         style={
           {
-            "color": undefined,
+            "color": "#D65C5E",
             "fontFamily": "Inter",
             "fontSize": 10,
             "fontWeight": "500",

@@ -1,8 +1,7 @@
-import {
-  YellowErrorIcon,
-  ErrorIcon
-} from 'pearpass-lib-ui-react-native-components'
 import { View, Text, StyleSheet } from 'react-native'
+
+import { ErrorIcon } from '../../icons/ErrorIcon'
+import { YellowErrorIcon } from '../../icons/YellowErrorIcon'
 
 /**
  * @param {{

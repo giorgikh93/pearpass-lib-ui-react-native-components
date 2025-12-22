@@ -14,6 +14,7 @@ exports[`WarningAlert Component matches snapshot with default props 1`] = `
         "borderColor": "#FFAE00",
         "width": "75%",
       },
+      undefined,
     ]
   }
 >
@@ -78,7 +79,7 @@ exports[`WarningAlert Component matches snapshot with default props 1`] = `
             d="M11.2328 1.25363C11.1166 1.02672 10.9399 0.836301 10.7224 0.70333C10.5049 0.57036 10.2549 0.5 9.99994 0.5C9.74499 0.5 9.49498 0.57036 9.27745 0.70333C9.05992 0.836301 8.88331 1.02672 8.76706 1.25363L1.14819 16.4914C1.04192 16.7023 0.991331 16.9368 1.00121 17.1727C1.0111 17.4087 1.08113 17.6381 1.20465 17.8394C1.32818 18.0406 1.5011 18.207 1.707 18.3226C1.91289 18.4382 2.14492 18.4993 2.38106 18.5H17.6188C17.8549 18.4993 18.087 18.4382 18.2929 18.3226C18.4988 18.207 18.6717 18.0406 18.7952 17.8394C18.9187 17.6381 18.9888 17.4087 18.9987 17.1727C19.0085 16.9368 18.958 16.7023 18.8517 16.4914L11.2328 1.25363Z"
             fill={
               {
-                "payload": 4294375158,
+                "payload": 4294097472,
                 "type": 0,
               }
             }
@@ -92,7 +93,7 @@ exports[`WarningAlert Component matches snapshot with default props 1`] = `
             }
             stroke={
               {
-                "payload": 4294375158,
+                "payload": 4294097472,
                 "type": 0,
               }
             }
@@ -142,6 +143,7 @@ exports[`WarningAlert Component matches snapshot with error variant and all prop
         "borderColor": "#D13B3D",
         "width": "75%",
       },
+      undefined,
     ]
   }
 >
@@ -206,12 +208,13 @@ exports[`WarningAlert Component matches snapshot with error variant and all prop
             d="M10 19C14.9706 19 19 14.9706 19 10C19 5.02944 14.9706 1 10 1C5.02944 1 1 5.02944 1 10C1 14.9706 5.02944 19 10 19Z"
             fill={
               {
-                "payload": 4278190080,
+                "payload": 4292238430,
                 "type": 0,
               }
             }
             propList={
               [
+                "fill",
                 "stroke",
               ]
             }
@@ -249,24 +252,30 @@ exports[`WarningAlert Component matches snapshot with error variant and all prop
     >
       <Text
         style={
-          {
-            "color": "#F6F6F6",
-            "fontSize": 14,
-            "fontWeight": "600",
-            "lineHeight": 18,
-          }
+          [
+            {
+              "color": "#F6F6F6",
+              "fontSize": 14,
+              "fontWeight": "600",
+              "lineHeight": 18,
+            },
+            undefined,
+          ]
         }
       >
         Error Alert
       </Text>
       <Text
         style={
-          {
-            "color": "#F6F6F6",
-            "fontSize": 12,
-            "fontWeight": "400",
-            "lineHeight": 16,
-          }
+          [
+            {
+              "color": "#F6F6F6",
+              "fontSize": 12,
+              "fontWeight": "400",
+              "lineHeight": 16,
+            },
+            undefined,
+          ]
         }
       >
         This is an error message
@@ -307,6 +316,7 @@ exports[`WarningAlert Component matches snapshot with stretch disabled 1`] = `
         "borderColor": "#FFAE00",
         "width": "75%",
       },
+      undefined,
     ]
   }
 >
@@ -371,7 +381,7 @@ exports[`WarningAlert Component matches snapshot with stretch disabled 1`] = `
             d="M11.2328 1.25363C11.1166 1.02672 10.9399 0.836301 10.7224 0.70333C10.5049 0.57036 10.2549 0.5 9.99994 0.5C9.74499 0.5 9.49498 0.57036 9.27745 0.70333C9.05992 0.836301 8.88331 1.02672 8.76706 1.25363L1.14819 16.4914C1.04192 16.7023 0.991331 16.9368 1.00121 17.1727C1.0111 17.4087 1.08113 17.6381 1.20465 17.8394C1.32818 18.0406 1.5011 18.207 1.707 18.3226C1.91289 18.4382 2.14492 18.4993 2.38106 18.5H17.6188C17.8549 18.4993 18.087 18.4382 18.2929 18.3226C18.4988 18.207 18.6717 18.0406 18.7952 17.8394C18.9187 17.6381 18.9888 17.4087 18.9987 17.1727C19.0085 16.9368 18.958 16.7023 18.8517 16.4914L11.2328 1.25363Z"
             fill={
               {
-                "payload": 4294375158,
+                "payload": 4294097472,
                 "type": 0,
               }
             }
@@ -385,7 +395,7 @@ exports[`WarningAlert Component matches snapshot with stretch disabled 1`] = `
             }
             stroke={
               {
-                "payload": 4294375158,
+                "payload": 4294097472,
                 "type": 0,
               }
             }
@@ -419,12 +429,15 @@ exports[`WarningAlert Component matches snapshot with stretch disabled 1`] = `
     >
       <Text
         style={
-          {
-            "color": "#F6F6F6",
-            "fontSize": 14,
-            "fontWeight": "600",
-            "lineHeight": 18,
-          }
+          [
+            {
+              "color": "#F6F6F6",
+              "fontSize": 14,
+              "fontWeight": "600",
+              "lineHeight": 18,
+            },
+            undefined,
+          ]
         }
       >
         Default Width
@@ -448,6 +461,7 @@ exports[`WarningAlert Component matches snapshot with stretch enabled 1`] = `
         "borderColor": "#FFAE00",
         "width": "100%",
       },
+      undefined,
     ]
   }
 >
@@ -512,7 +526,7 @@ exports[`WarningAlert Component matches snapshot with stretch enabled 1`] = `
             d="M11.2328 1.25363C11.1166 1.02672 10.9399 0.836301 10.7224 0.70333C10.5049 0.57036 10.2549 0.5 9.99994 0.5C9.74499 0.5 9.49498 0.57036 9.27745 0.70333C9.05992 0.836301 8.88331 1.02672 8.76706 1.25363L1.14819 16.4914C1.04192 16.7023 0.991331 16.9368 1.00121 17.1727C1.0111 17.4087 1.08113 17.6381 1.20465 17.8394C1.32818 18.0406 1.5011 18.207 1.707 18.3226C1.91289 18.4382 2.14492 18.4993 2.38106 18.5H17.6188C17.8549 18.4993 18.087 18.4382 18.2929 18.3226C18.4988 18.207 18.6717 18.0406 18.7952 17.8394C18.9187 17.6381 18.9888 17.4087 18.9987 17.1727C19.0085 16.9368 18.958 16.7023 18.8517 16.4914L11.2328 1.25363Z"
             fill={
               {
-                "payload": 4294375158,
+                "payload": 4294097472,
                 "type": 0,
               }
             }
@@ -526,7 +540,7 @@ exports[`WarningAlert Component matches snapshot with stretch enabled 1`] = `
             }
             stroke={
               {
-                "payload": 4294375158,
+                "payload": 4294097472,
                 "type": 0,
               }
             }
@@ -560,12 +574,15 @@ exports[`WarningAlert Component matches snapshot with stretch enabled 1`] = `
     >
       <Text
         style={
-          {
-            "color": "#F6F6F6",
-            "fontSize": 14,
-            "fontWeight": "600",
-            "lineHeight": 18,
-          }
+          [
+            {
+              "color": "#F6F6F6",
+              "fontSize": 14,
+              "fontWeight": "600",
+              "lineHeight": 18,
+            },
+            undefined,
+          ]
         }
       >
         Stretched
@@ -589,6 +606,7 @@ exports[`WarningAlert Component matches snapshot with warning variant and all pr
         "borderColor": "#FFAE00",
         "width": "100%",
       },
+      undefined,
     ]
   }
 >
@@ -653,7 +671,7 @@ exports[`WarningAlert Component matches snapshot with warning variant and all pr
             d="M11.2328 1.25363C11.1166 1.02672 10.9399 0.836301 10.7224 0.70333C10.5049 0.57036 10.2549 0.5 9.99994 0.5C9.74499 0.5 9.49498 0.57036 9.27745 0.70333C9.05992 0.836301 8.88331 1.02672 8.76706 1.25363L1.14819 16.4914C1.04192 16.7023 0.991331 16.9368 1.00121 17.1727C1.0111 17.4087 1.08113 17.6381 1.20465 17.8394C1.32818 18.0406 1.5011 18.207 1.707 18.3226C1.91289 18.4382 2.14492 18.4993 2.38106 18.5H17.6188C17.8549 18.4993 18.087 18.4382 18.2929 18.3226C18.4988 18.207 18.6717 18.0406 18.7952 17.8394C18.9187 17.6381 18.9888 17.4087 18.9987 17.1727C19.0085 16.9368 18.958 16.7023 18.8517 16.4914L11.2328 1.25363Z"
             fill={
               {
-                "payload": 4294375158,
+                "payload": 4294097472,
                 "type": 0,
               }
             }
@@ -667,7 +685,7 @@ exports[`WarningAlert Component matches snapshot with warning variant and all pr
             }
             stroke={
               {
-                "payload": 4294375158,
+                "payload": 4294097472,
                 "type": 0,
               }
             }
@@ -701,24 +719,30 @@ exports[`WarningAlert Component matches snapshot with warning variant and all pr
     >
       <Text
         style={
-          {
-            "color": "#F6F6F6",
-            "fontSize": 14,
-            "fontWeight": "600",
-            "lineHeight": 18,
-          }
+          [
+            {
+              "color": "#F6F6F6",
+              "fontSize": 14,
+              "fontWeight": "600",
+              "lineHeight": 18,
+            },
+            undefined,
+          ]
         }
       >
         Warning Alert
       </Text>
       <Text
         style={
-          {
-            "color": "#F6F6F6",
-            "fontSize": 12,
-            "fontWeight": "400",
-            "lineHeight": 16,
-          }
+          [
+            {
+              "color": "#F6F6F6",
+              "fontSize": 12,
+              "fontWeight": "400",
+              "lineHeight": 16,
+            },
+            undefined,
+          ]
         }
       >
         This is a warning message
@@ -754,6 +778,7 @@ exports[`WarningAlert Component renders with default props 1`] = `
         "borderColor": "#FFAE00",
         "width": "75%",
       },
+      undefined,
     ]
   }
 >
@@ -818,7 +843,7 @@ exports[`WarningAlert Component renders with default props 1`] = `
             d="M11.2328 1.25363C11.1166 1.02672 10.9399 0.836301 10.7224 0.70333C10.5049 0.57036 10.2549 0.5 9.99994 0.5C9.74499 0.5 9.49498 0.57036 9.27745 0.70333C9.05992 0.836301 8.88331 1.02672 8.76706 1.25363L1.14819 16.4914C1.04192 16.7023 0.991331 16.9368 1.00121 17.1727C1.0111 17.4087 1.08113 17.6381 1.20465 17.8394C1.32818 18.0406 1.5011 18.207 1.707 18.3226C1.91289 18.4382 2.14492 18.4993 2.38106 18.5H17.6188C17.8549 18.4993 18.087 18.4382 18.2929 18.3226C18.4988 18.207 18.6717 18.0406 18.7952 17.8394C18.9187 17.6381 18.9888 17.4087 18.9987 17.1727C19.0085 16.9368 18.958 16.7023 18.8517 16.4914L11.2328 1.25363Z"
             fill={
               {
-                "payload": 4294375158,
+                "payload": 4294097472,
                 "type": 0,
               }
             }
@@ -832,7 +857,7 @@ exports[`WarningAlert Component renders with default props 1`] = `
             }
             stroke={
               {
-                "payload": 4294375158,
+                "payload": 4294097472,
                 "type": 0,
               }
             }
@@ -882,6 +907,7 @@ exports[`WarningAlert Component renders with error variant 1`] = `
         "borderColor": "#D13B3D",
         "width": "75%",
       },
+      undefined,
     ]
   }
 >
@@ -946,12 +972,13 @@ exports[`WarningAlert Component renders with error variant 1`] = `
             d="M10 19C14.9706 19 19 14.9706 19 10C19 5.02944 14.9706 1 10 1C5.02944 1 1 5.02944 1 10C1 14.9706 5.02944 19 10 19Z"
             fill={
               {
-                "payload": 4278190080,
+                "payload": 4292238430,
                 "type": 0,
               }
             }
             propList={
               [
+                "fill",
                 "stroke",
               ]
             }
@@ -989,12 +1016,15 @@ exports[`WarningAlert Component renders with error variant 1`] = `
     >
       <Text
         style={
-          {
-            "color": "#F6F6F6",
-            "fontSize": 14,
-            "fontWeight": "600",
-            "lineHeight": 18,
-          }
+          [
+            {
+              "color": "#F6F6F6",
+              "fontSize": 14,
+              "fontWeight": "600",
+              "lineHeight": 18,
+            },
+            undefined,
+          ]
         }
       >
         Error
@@ -1018,6 +1048,7 @@ exports[`WarningAlert Component renders with warning variant 1`] = `
         "borderColor": "#FFAE00",
         "width": "75%",
       },
+      undefined,
     ]
   }
 >
@@ -1082,7 +1113,7 @@ exports[`WarningAlert Component renders with warning variant 1`] = `
             d="M11.2328 1.25363C11.1166 1.02672 10.9399 0.836301 10.7224 0.70333C10.5049 0.57036 10.2549 0.5 9.99994 0.5C9.74499 0.5 9.49498 0.57036 9.27745 0.70333C9.05992 0.836301 8.88331 1.02672 8.76706 1.25363L1.14819 16.4914C1.04192 16.7023 0.991331 16.9368 1.00121 17.1727C1.0111 17.4087 1.08113 17.6381 1.20465 17.8394C1.32818 18.0406 1.5011 18.207 1.707 18.3226C1.91289 18.4382 2.14492 18.4993 2.38106 18.5H17.6188C17.8549 18.4993 18.087 18.4382 18.2929 18.3226C18.4988 18.207 18.6717 18.0406 18.7952 17.8394C18.9187 17.6381 18.9888 17.4087 18.9987 17.1727C19.0085 16.9368 18.958 16.7023 18.8517 16.4914L11.2328 1.25363Z"
             fill={
               {
-                "payload": 4294375158,
+                "payload": 4294097472,
                 "type": 0,
               }
             }
@@ -1096,7 +1127,7 @@ exports[`WarningAlert Component renders with warning variant 1`] = `
             }
             stroke={
               {
-                "payload": 4294375158,
+                "payload": 4294097472,
                 "type": 0,
               }
             }
@@ -1130,12 +1161,15 @@ exports[`WarningAlert Component renders with warning variant 1`] = `
     >
       <Text
         style={
-          {
-            "color": "#F6F6F6",
-            "fontSize": 14,
-            "fontWeight": "600",
-            "lineHeight": 18,
-          }
+          [
+            {
+              "color": "#F6F6F6",
+              "fontSize": 14,
+              "fontWeight": "600",
+              "lineHeight": 18,
+            },
+            undefined,
+          ]
         }
       >
         Warning
