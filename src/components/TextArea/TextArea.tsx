@@ -35,12 +35,16 @@ export const TextArea = React.forwardRef<HTMLTextAreaElement, TextAreaProps>(
       onChange?.(e.target.value)
     }
 
-    const handleFocus: HtmlTextareaProps['onFocus'] = (e) => {
+    const handleFocus: HtmlTextareaProps['onFocus'] = (
+      e: React.FocusEvent<HTMLTextAreaElement>
+    ) => {
       setIsFocused(true)
       onFocus?.(e)
     }
 
-    const handleBlur: HtmlTextareaProps['onBlur'] = (e) => {
+    const handleBlur: HtmlTextareaProps['onBlur'] = (
+      e: React.FocusEvent<HTMLTextAreaElement>
+    ) => {
       setIsFocused(false)
       onBlur?.(e)
     }

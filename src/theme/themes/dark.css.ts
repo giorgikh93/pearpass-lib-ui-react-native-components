@@ -20,7 +20,7 @@ export const darkThemeStyle = css.createTheme(tokens, {
     colorSurfaceDestructive: '#421010',
     colorTextPrimary: '#FFFFFF',
     colorOnPrimary: '#08090C',
-    colorTextSecondary: '#8DC3AC',
+    colorTextSecondary: '#BDC3AC',
     colorTextDisabled: '#435123',
     colorBorderPrimary: '#212814',
     colorBorderSecondary: '#2C3618',

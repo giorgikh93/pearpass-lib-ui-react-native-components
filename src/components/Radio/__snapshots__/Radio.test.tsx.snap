@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Radio renders all options and matches snapshot 1`] = `
+<div
+  className="margin-x1ghz6dp padding-x1717udv"
+  data-element-src="Radio/Radio.tsx:23"
+  data-style-src="react-strict-dom:web/runtime.js"
+  role="radiogroup"
+  style={{}}
+>
+  <div
+    aria-checked={true}
+    className="margin-x1ghz6dp padding-x1717udv"
+    data-element-src="Radio/Radio.tsx:29"
+    data-style-src="react-strict-dom:web/runtime.js"
+    onClick={[Function]}
+    role="radio"
+    style={{}}
+    tabIndex={0}
+  >
+    <div
+      aria-hidden={true}
+      className="margin-x1ghz6dp padding-x1717udv"
+      data-element-src="Radio/Radio.tsx:41"
+      data-style-src="react-strict-dom:web/runtime.js"
+      style={{}}
+    >
+      <div
+        className="margin-x1ghz6dp padding-x1717udv"
+        data-element-src="Radio/Radio.tsx:49"
+        data-style-src="react-strict-dom:web/runtime.js"
+        style={{}}
+      />
+    </div>
+    <div
+      className="margin-x1ghz6dp padding-x1717udv"
+      data-element-src="Radio/Radio.tsx:53"
+      data-style-src="react-strict-dom:web/runtime.js"
+      style={{}}
+    >
+      <span
+        className="margin-x1ghz6dp padding-x1717udv textDecoration-x1hl2dhg textAlign-x16tdsg8 wordWrap-x1vvkbs"
+        data-element-src="Radio/Radio.tsx:55"
+        data-style-src="react-strict-dom:web/runtime.js"
+        style={{}}
+      >
+        Option A
+      </span>
+      <span
+        className="margin-x1ghz6dp padding-x1717udv textDecoration-x1hl2dhg textAlign-x16tdsg8 wordWrap-x1vvkbs"
+        data-element-src="Radio/Radio.tsx:58"
+        data-style-src="react-strict-dom:web/runtime.js"
+        style={{}}
+      >
+        Description A
+      </span>
+    </div>
+  </div>
+  <div
+    aria-checked={false}
+    className="margin-x1ghz6dp padding-x1717udv"
+    data-element-src="Radio/Radio.tsx:29"
+    data-style-src="react-strict-dom:web/runtime.js"
+    onClick={[Function]}
+    role="radio"
+    style={{}}
+    tabIndex={0}
+  >
+    <div
+      aria-hidden={true}
+      className="margin-x1ghz6dp padding-x1717udv"
+      data-element-src="Radio/Radio.tsx:41"
+      data-style-src="react-strict-dom:web/runtime.js"
+      style={{}}
+    />
+    <div
+      className="margin-x1ghz6dp padding-x1717udv"
+      data-element-src="Radio/Radio.tsx:53"
+      data-style-src="react-strict-dom:web/runtime.js"
+      style={{}}
+    >
+      <span
+        className="margin-x1ghz6dp padding-x1717udv textDecoration-x1hl2dhg textAlign-x16tdsg8 wordWrap-x1vvkbs"
+        data-element-src="Radio/Radio.tsx:55"
+        data-style-src="react-strict-dom:web/runtime.js"
+        style={{}}
+      >
+        Option B
+      </span>
+    </div>
+  </div>
+</div>
+`;
