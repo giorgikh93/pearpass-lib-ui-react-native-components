@@ -1,4 +1,5 @@
-export * from './Button'
+export * from './Button';
+export * from './AlertMessage';
 export * from './FieldError'
 export * from './TextArea'
 export * from './Title'

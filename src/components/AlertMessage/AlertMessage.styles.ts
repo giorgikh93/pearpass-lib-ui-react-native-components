@@ -1,0 +1,93 @@
+import { css } from 'react-strict-dom';
+import { tokens } from '../../theme/tokens.css';
+
+export const styles = css.create({
+  container: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    padding: tokens.spacing12,
+    gap: tokens.spacing12,
+    borderRadius: tokens.radius8,
+    backgroundColor: tokens.colorSurfaceHover,
+  },
+  messageContainer: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 0,
+    gap: tokens.spacing8,
+    flex: 1,
+  },
+  messageContainerBig: {
+    flexDirection: 'column',
+    alignItems: 'flex-start',
+  },
+  iconContainer: {
+    display: 'flex',
+    width: 24,
+    height: 24,
+    flexShrink: 0,
+  },
+  copy: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'flex-start',
+    padding: 0,
+    gap: 6,
+    flex: 1,
+  },
+  title: {
+    fontFamily: tokens.fontPrimary,
+    fontWeight: '500',
+    fontSize: tokens.fontSize14,
+    lineHeight: '16px',
+    color: tokens.colorTextPrimary,
+  },
+  description: {
+    fontFamily: tokens.fontPrimary,
+    fontWeight: '400',
+    fontSize: tokens.fontSize12,
+    lineHeight: '16px',
+    color: tokens.colorTextSecondary,
+  },
+  link: {
+    fontFamily: tokens.fontPrimary,
+    fontWeight: '400',
+    fontSize: tokens.fontSize12,
+    lineHeight: '15px',
+    textDecorationLine: 'underline',
+    color: tokens.colorPrimary,
+    cursor: 'pointer',
+  },
+  sizeBig: {
+    flexDirection: 'column',
+    alignItems: 'flex-start',
+  },
+  sizeMedium: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  sizeSmall: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  variantSuccess: {
+    // Relying on default container background #212814
+  },
+  variantError: {
+    backgroundColor: tokens.colorSurfaceDestructive,
+  },
+});
+
+export const variantStyleMap = {
+  success: styles.variantSuccess,
+  error: styles.variantError,
+};
+
+export const sizeStyleMap = {
+  small: styles.sizeSmall,
+  medium: styles.sizeMedium,
+  big: styles.sizeBig,
+};
