@@ -25,6 +25,10 @@
   "exclude": [
     "node_modules",
     "lib",
-    "dist"
+    "dist",
+    "src/**/*.test.tsx",
+    "src/**/*.test.ts",
+    "src/**/*.stories.tsx",
+    "src/**/__tests__/**/*"
   ]
 }

@@ -9,10 +9,14 @@ export type DropdownProps = {
 }
 
 export const Dropdown: React.FC<DropdownProps> = ({ trigger, children, testID }) => {
+  // TS workaround: some build/JSX resolutions treat `NativeBottomSheet` as having no props.
+  // Casting keeps runtime behavior identical while unblocking the TS compile.
+  const BottomSheetComponent = NativeBottomSheet as unknown as React.ComponentType<DropdownProps>
+
   return (
-    <NativeBottomSheet trigger={trigger} testID={testID}>
+    <BottomSheetComponent trigger={trigger} testID={testID}>
       <BottomSheetScrollView>{children}</BottomSheetScrollView>
-    </NativeBottomSheet>
+    </BottomSheetComponent>
   )
 }
 
