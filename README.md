@@ -6,6 +6,7 @@ A library of reusable React Native components designed for the Pearpass ecosyste
 
 - [Table of Contents](#table-of-contents)
 - [Features](#features)
+- [Security Notice](#security-notice)
 - [Installation](#installation)
 - [Usage Examples](#usage-examples)
 - [Dependencies](#dependencies)
@@ -17,12 +18,17 @@ A library of reusable React Native components designed for the Pearpass ecosyste
 - Fully customizable and themeable using `pearpass-lib-ui-theme-provider`.
 - Optimized for performance and compatibility with modern React Native versions.
 
+## Security Notice
+
+1. To ensure the security and integrity of your projects, please note that official PearPass packages are distributed exclusively through our GitHub organization.
+2. Any packages with similar names found on the npm registry or other third-party package managers are not affiliated with PearPass and should be strictly avoided. We recommend installing directly from this repository to ensure you are using the verified, open-source version.
+
 ## Installation
 
 To install the library, use the following command:
 
 ```bash
-npm install pearpass-lib-ui-react-native-components
+npm install git+https://github.com/tetherto/pearpass-lib-ui-react-native-components.git
 ```
 
 Ensure you have the required peer dependencies installed as well.
@@ -32,7 +38,7 @@ Ensure you have the required peer dependencies installed as well.
 Here is a basic example of how to use a component from the library:
 
 ```jsx
-import { ButtonPrimary } from 'pearpass-lib-ui-react-native-components';
+import { ButtonPrimary } from '@tetherto/pearpass-lib-ui-react-native-components';
 
 const App = () => {
     return <ButtonPrimary />;
@@ -52,19 +58,11 @@ This library has the following peer dependencies:
 
 For a full list of dependencies, refer to the `package.json` file.
 
-## Depended Submodules
-
-The following sibling submodules must be present in the workspace (they are not declared as npm dependencies):
-
-- [`pearpass-lib-ui-theme-provider`](../pearpass-lib-ui-theme-provider)
-- [`pearpass-utils-password-check`](../pearpass-utils-password-check)
-- [`tether-dev-docs`](../tether-dev-docs)
-
 ## Related Projects
 
-- [pearpass-utils-password-check](https://github.com/tetherto/pearpass-utils-password-check): Utility functions for password validation.
-- [tether-dev-docs](https://github.com/tetherto/tether-dev-docs): Shared ESLint configurations and development tools for Tether projects.
-- [pearpass-lib-ui-theme-provider](https://github.com/tetherto/pearpass-lib-ui-theme-provider): Theme provider for consistent styling across Pearpass UI components.
+- [@tetherto/pearpass-utils-password-check](https://github.com/tetherto/pearpass-utils-password-check): Utility functions for password validation.
+- [@tetherto/tether-dev-docs](https://github.com/tetherto/tether-dev-docs): Shared ESLint configurations and development tools for Tether projects.
+- [@tetherto/pearpass-lib-ui-theme-provider](https://github.com/tetherto/pearpass-lib-ui-theme-provider): Theme provider for consistent styling across Pearpass UI components.
 
 ## License
 
