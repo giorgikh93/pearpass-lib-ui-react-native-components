@@ -18,12 +18,12 @@ export const styles = css.create({
     gap: tokens.spacing12,
     alignSelf: 'stretch',
     cursor: 'pointer',
-    userSelect: 'none',
-    ':not(:last-child)': {
-      borderBottomWidth: 1,
-      borderBottomStyle: 'solid',
-      borderBottomColor: tokens.colorBorderPrimary
-    }
+    userSelect: 'none'
+  },
+  optionWrapperDivider: {
+    borderBottomWidth: 1,
+    borderBottomStyle: 'solid',
+    borderBottomColor: tokens.colorBorderPrimary
   },
   optionWrapperDisabled: {
     cursor: 'not-allowed',

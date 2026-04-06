@@ -11,8 +11,21 @@ export type PressableProps = HtmlDivProps & {
 }
 
 export const Pressable = React.forwardRef<HTMLDivElement, PressableProps>(
-  function Pressable({ onPressIn, onPressOut, onLongPress, delayLongPress, children, ...rest }, ref) {
-    const longPressTimer = React.useRef<ReturnType<typeof setTimeout> | null>(null)
+  function Pressable(
+    {
+      onPressIn,
+      onPressOut,
+      onLongPress,
+      delayLongPress,
+      children,
+      style,
+      ...rest
+    },
+    ref
+  ) {
+    const longPressTimer = React.useRef<ReturnType<typeof setTimeout> | null>(
+      null
+    )
 
     const handleTouchStart = () => {
       onPressIn?.()
@@ -33,6 +46,7 @@ export const Pressable = React.forwardRef<HTMLDivElement, PressableProps>(
       <html.div
         {...rest}
         ref={ref}
+        style={style}
         onTouchStart={handleTouchStart}
         onTouchEnd={handleTouchEnd}
         onTouchCancel={handleTouchEnd}

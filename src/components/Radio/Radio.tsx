@@ -21,9 +21,10 @@ export const Radio = ({
 }: RadioProps) => {
   return (
     <html.div role="radiogroup" data-testid={testID} style={styles.root}>
-      {options.map((option: RadioOption) => {
+      {options.map((option: RadioOption, index: number) => {
         const isChecked = option.value === value
         const isDisabled = disabled || option.disabled === true
+        const isNotLast = index < options.length - 1
 
         return (
           <html.div
@@ -34,6 +35,7 @@ export const Radio = ({
             tabIndex={isDisabled ? -1 : 0}
             style={[
               styles.optionWrapper,
+              isNotLast && styles.optionWrapperDivider,
               isDisabled && styles.optionWrapperDisabled
             ]}
             onClick={isDisabled ? undefined : () => onChange?.(option.value)}

@@ -6,6 +6,7 @@ jest.mock('./Radio.styles', () => ({
   styles: {
     root: {},
     optionWrapper: {},
+    optionWrapperDivider: {},
     optionWrapperDisabled: {},
     ring: {},
     ringChecked: {},
