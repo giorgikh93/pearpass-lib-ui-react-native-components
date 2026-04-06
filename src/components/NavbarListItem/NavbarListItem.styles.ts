@@ -7,7 +7,6 @@ export const styles = css.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: tokens.spacing8,
-    marginBlock: 1,
     paddingBlock: tokens.spacing8,
     paddingInline: tokens.spacing8,
     backgroundColor: 'transparent',
@@ -40,6 +39,9 @@ export const styles = css.create({
     paddingBlock: tokens.spacing16,
     paddingInline: tokens.spacing16,
     backgroundColor: tokens.colorSurfacePrimary
+  },
+  pressed: {
+    backgroundColor: tokens.colorSurfaceHover
   },
   divider: {
     borderStyle: 'solid',

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { html } from 'react-strict-dom'
 import { styles } from './NavbarListItem.styles'
 import { variantStyleMap, ICON_SIZE } from './NavbarListItem.config'
@@ -12,6 +12,7 @@ export type NavbarListItemProps = Omit<
   'children' | 'onClick'
 > & {
   icon?: React.ReactNode
+  iconSize?: number
   label?: string
   count?: number
   selected?: boolean
@@ -31,6 +32,7 @@ export const NavbarListItem = React.forwardRef<
 >(function NavbarListItem(
   {
     icon,
+    iconSize = ICON_SIZE,
     label,
     count,
     selected = false,
@@ -44,6 +46,7 @@ export const NavbarListItem = React.forwardRef<
   },
   ref
 ) {
+  const [isPressed, setIsPressed] = useState(false)
   const isMobile = platform === 'mobile'
   const isIconOnly = Boolean(icon) && !label && count === undefined
 
@@ -55,21 +58,25 @@ export const NavbarListItem = React.forwardRef<
       data-testid={testID}
       aria-selected={selected}
       onClick={onClick}
+      onTouchStart={() => setIsPressed(true)}
+      onTouchEnd={() => setIsPressed(false)}
+      onTouchCancel={() => setIsPressed(false)}
       style={[
         styles.root,
         isMobile && styles.mobile,
         showDivider && styles.divider,
         selected && styles.selected,
+        isPressed && styles.pressed,
         variantStyleMap[variant],
         isIconOnly && styles.iconOnly(ICON_ONLY_SIZE)
       ]}
     >
       {icon && (
         <html.span
-          style={[styles.icon, styles.iconSize(ICON_SIZE)]}
+          style={[styles.icon, styles.iconSize(iconSize)]}
           aria-hidden={true}
         >
-          {withIconSize(icon, ICON_SIZE)}
+          {withIconSize(icon, iconSize)}
         </html.span>
       )}
 
