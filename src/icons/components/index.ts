@@ -83,6 +83,7 @@ export { default as SearchOutlined } from "./SearchOutlined";
 export { default as SearchRound } from "./SearchRound";
 export { default as SearchSharp } from "./SearchSharp";
 export { default as SearchTwoTone } from "./SearchTwoTone";
+export { default as Send } from "./Send";
 export { default as SecurityFilled } from "./SecurityFilled";
 export { default as SecurityTwoTone } from "./SecurityTwoTone";
 export { default as Settings } from "./Settings";
