@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RingSpinner matches snapshot with mocked countdown 1`] = `
+<View
+  accessibilityElementsHidden={true}
+  style={
+    [
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "overflow": "visible",
+      },
+      {
+        "height": 24,
+        "width": 24,
+      },
+    ]
+  }
+>
+  <RNSVGSvgView
+    align="xMidYMid"
+    bbHeight={24}
+    bbWidth={24}
+    focusable={false}
+    height={24}
+    meetOrSlice={0}
+    minX={0}
+    minY={0}
+    style={
+      [
+        {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        {
+          "flex": 0,
+          "height": 24,
+          "width": 24,
+        },
+      ]
+    }
+    vbHeight={24}
+    vbWidth={24}
+    width={24}
+  >
+    <RNSVGGroup
+      fill={
+        {
+          "payload": 4278190080,
+          "type": 0,
+        }
+      }
+    >
+      <RNSVGCircle
+        cx={12}
+        cy={12}
+        fill={null}
+        propList={
+          [
+            "fill",
+            "stroke",
+            "strokeWidth",
+          ]
+        }
+        r={9}
+        stroke={
+          {
+            "payload": 4281087512,
+            "type": 0,
+          }
+        }
+        strokeWidth={2}
+      />
+      <RNSVGGroup
+        fill={
+          {
+            "payload": 4278190080,
+            "type": 0,
+          }
+        }
+        matrix={
+          [
+            6.123233995736766e-17,
+            -1,
+            1,
+            6.123233995736766e-17,
+            0,
+            24,
+          ]
+        }
+      >
+        <RNSVGCircle
+          cx={12}
+          cy={12}
+          fill={null}
+          propList={
+            [
+              "fill",
+              "stroke",
+              "strokeWidth",
+              "strokeDasharray",
+              "strokeLinecap",
+            ]
+          }
+          r={9}
+          stroke={
+            {
+              "payload": 4289780036,
+              "type": 0,
+            }
+          }
+          strokeDasharray={
+            [
+              "42.411500823462205",
+              "56.548667764616276",
+            ]
+          }
+          strokeLinecap={1}
+          strokeWidth={2}
+        />
+      </RNSVGGroup>
+    </RNSVGGroup>
+  </RNSVGSvgView>
+</View>
+`;
