@@ -65,6 +65,7 @@ export const styles = css.create({
             color: tokens.colorTextSecondary,
             fontSize: tokens.fontSize14,
             fontWeight: tokens.weightMedium,
+            paddingTop: tokens.spacing2,
         },
     },
     textareaDisabled: {
