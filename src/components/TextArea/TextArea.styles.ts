@@ -62,7 +62,9 @@ export const styles = css.create({
         outlineStyle: 'none',
         minHeight: 100,
         '::placeholder': {
-            color: tokens.colorTextDisabled,
+            color: tokens.colorTextSecondary,
+            fontSize: tokens.fontSize14,
+            fontWeight: tokens.weightMedium,
         },
     },
     textareaDisabled: {
