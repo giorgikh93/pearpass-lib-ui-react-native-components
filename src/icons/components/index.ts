@@ -87,6 +87,7 @@ export { default as PersonAdd } from "./PersonAdd";
 export { default as Phone } from "./Phone";
 export { default as PhoneAndroid } from "./PhoneAndroid";
 export { default as PhoneIphone } from "./PhoneIphone";
+export { default as PublicOutlined } from "./PublicOutlined";
 export { default as PushPin } from "./PushPin";
 export { default as QrCode } from "./QrCode";
 export { default as Report } from "./Report";
