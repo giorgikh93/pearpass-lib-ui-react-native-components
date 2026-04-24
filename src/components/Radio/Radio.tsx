@@ -11,6 +11,7 @@ export type RadioProps = {
   disabled?: boolean
   builtIn?: boolean
   testID?: string
+  withPadding?: boolean
 }
 
 export const Radio = ({
@@ -19,7 +20,8 @@ export const Radio = ({
   onChange,
   disabled = false,
   builtIn = false,
-  testID
+  testID,
+  withPadding = false
 }: RadioProps) => {
   return (
     <html.div
@@ -41,7 +43,7 @@ export const Radio = ({
             tabIndex={isDisabled ? -1 : 0}
             style={[
               styles.optionWrapper,
-              builtIn && styles.optionWrapperBuiltIn,
+              builtIn && !withPadding && styles.optionWrapperBuiltIn,
               isNotLast && styles.optionWrapperDivider,
               isDisabled && styles.optionWrapperDisabled
             ]}
