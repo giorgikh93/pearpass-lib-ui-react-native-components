@@ -48,6 +48,7 @@ export { default as FormatQuote } from "./FormatQuote";
 export { default as GppBad } from "./GppBad";
 export { default as GppMaybe } from "./GppMaybe";
 export { default as GridView } from "./GridView";
+export { default as HourglassBottom } from "./HourglassBottom";
 export { default as HubFilled } from "./HubFilled";
 export { default as ImportExport } from "./ImportExport";
 export { default as ImportOutlined } from "./ImportOutlined";
