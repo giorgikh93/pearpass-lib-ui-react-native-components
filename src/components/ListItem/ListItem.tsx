@@ -32,6 +32,8 @@ export type ListItemProps = {
   testID?: string
   style?: PressableProps['style']
   withRoundedBottomBorders?: boolean
+  withRoundedTopBorders?: boolean
+  withRoundedBorders?: boolean
   selectable?: boolean
 }
 
@@ -61,6 +63,8 @@ export const ListItem = React.forwardRef<HTMLDivElement, ListItemProps>(
       testID,
       style: userStyle,
       withRoundedBottomBorders = true,
+      withRoundedTopBorders = true,
+      withRoundedBorders = true,
       selectable = true
     },
     ref
@@ -121,6 +125,8 @@ export const ListItem = React.forwardRef<HTMLDivElement, ListItemProps>(
             variantStyleMap[variant],
             userStyle,
             withRoundedBottomBorders === false && styles.containerFlatBottom,
+            withRoundedTopBorders === false && styles.containerFlatTop,
+            withRoundedBorders === false && [styles.containerFlatTop, styles.containerFlatBottom],
             dividerColor && styles.dividerBorderBottomColor(dividerColor)
           ] as PressableProps['style']
         }

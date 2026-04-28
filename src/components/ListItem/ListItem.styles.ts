@@ -16,6 +16,7 @@ export const styles = css.create({
     transitionTimingFunction: 'ease',
   },
   selectable: {
+    cursor: 'pointer',
     '@media (hover: hover)': {
       ':hover': {
         backgroundColor: tokens.colorSurfaceHover
@@ -135,6 +136,10 @@ export const styles = css.create({
   containerFlatBottom: {
     borderBottomLeftRadius: 0,
     borderBottomRightRadius: 0
+  },
+  containerFlatTop: {
+    borderTopLeftRadius: 0,
+    borderTopRightRadius: 0
   },
   variantDefault: {},
   variantDestructive: {
