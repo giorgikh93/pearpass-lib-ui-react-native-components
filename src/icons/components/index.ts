@@ -133,4 +133,5 @@ export { default as UnfoldMoreFilled } from "./UnfoldMoreFilled";
 export { default as UnfoldMoreOutlined } from "./UnfoldMoreOutlined";
 export { default as UploadFileFilled } from "./UploadFileFilled";
 export { default as VerifiedUser } from "./VerifiedUser";
+export { default as WatchLater } from "./WatchLater";
 export { default as WiFi } from "./WiFi";
